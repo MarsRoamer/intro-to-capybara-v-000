@@ -5,7 +5,8 @@ class Application < Sinatra::Base
   end
 
   post '/' do 
-    erb :greet
+    # erb :greet
+    "Hello, Jon!"
   end
 
 end
